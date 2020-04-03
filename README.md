@@ -1,2 +1,2 @@
-# cursoJS
+## Repository to my JS course.
  
