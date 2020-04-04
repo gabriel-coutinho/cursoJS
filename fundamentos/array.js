@@ -20,3 +20,8 @@ console.log(array)
 
 array[20] = undefined // mesmo undefined, completa os campos vazios até o 20 com empty items
 console.log(array)
+
+const lista = [12, 35, 67, 20, 45]
+const lista1 = [12, 33, 123, ...lista, 89]
+console.log(lista)
+console.log(lista1)
