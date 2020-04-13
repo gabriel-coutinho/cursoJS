@@ -1,4 +1,4 @@
-function getRandomEntre(min, max) {
+function pegaAleatorioEntre(min, max) {
     const valor = Math.random() * (max - min) + min
     return Math.floor(valor)
 }
@@ -7,8 +7,9 @@ function getRandomEntre(min, max) {
 let opcao = 0
 
 // Imprime valores entre -1 e 10, até o aleatório ser -1
+// Um teste eh realizado antes da primeira exxecução do bloco
 while(opcao != -1) {
-    opcao = getRandomEntre(-1, 10)
+    opcao = pegaAleatorioEntre(-1, 10)
     console.log(`A opcao atual é: ${opcao}`)
 }
 
